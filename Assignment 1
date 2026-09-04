@@ -13,11 +13,11 @@ roll_no.remove(102)
 
 students[103]=("Bruce", "AIML", 94)
 
-print("Updated Record of Students:")
+    print("Updated Record of Students:")
 
-for roll_no,i in students.items():
-    print("Roll Number: ",roll_no)
-    print("Name: ",i[0])
-    print("Branch: ",i[1])
-    print("Marks: ",i[2])
-    print()
+        for roll_no,i in students.items():
+            print("Roll Number: ",roll_no)
+               print("Name: ",i[0])
+                  print("Branch: ",i[1])
+                     print("Marks: ",i[2])
+                        print()
